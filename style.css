@@ -7,6 +7,11 @@ http://www.Mkrtchyan.zz.mu
     margin: 0;
     padding: 0;
 }
+
+body {
+	background-color: black;
+}
+
 header {
     background-color:rgba(33, 33, 33, 0.9);
     color:#ffffff;
@@ -80,14 +85,35 @@ header a, a:visited {
 }
 
 .title {
-	z-index: 4;
+	z-index: 5;
 	color: white;
 	position:absolute;
 	top:0;
 	left:0;
 	right:0;
 	bottom:0;
-	width:100%;
+	width:50%;
+	height:100%;
+	display:block;
+	width:800px; 
+	margin:0 auto;
+	text-align: center;
+	vertical-align: middle;
+	  display: flex;
+  align-items: center;
+  justify-content: center;	
+
+}
+
+.content {
+		z-index: 3;
+	color: white;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	width:50%;
 	height:100%;
 	display:block;
 	width:800px; 
@@ -99,8 +125,25 @@ header a, a:visited {
   justify-content: center;	
 }
 
+#first {
+	background-image: url(img/first.png);
+	  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 550px;
+  left: 750px;
+  background-size: 100%;
+  background-color: transparent;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
 .stars, .twinkling, .clouds {
-  position:absolute;
+  position:fixed;
   top:0;
   left:0;
   right:0;
@@ -128,7 +171,7 @@ header a, a:visited {
 
 .clouds{
     background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
-    z-index:3;
+    z-index:4;
 
   -moz-animation:move-clouds-back 200s linear infinite;
   -ms-animation:move-clouds-back 200s linear infinite;
