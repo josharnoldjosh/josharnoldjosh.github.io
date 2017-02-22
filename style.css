@@ -126,7 +126,6 @@ header a, a:visited {
 }
 
 #first {
-	background-image: url(img/first.png);
 	  width: 300px;
   height: 300px;
   position: absolute;
