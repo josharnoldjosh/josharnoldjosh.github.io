@@ -43,6 +43,7 @@ Much of Narrow AI fits under the category of *Machine Learning*, which we will e
 
 ## Machine Learning 
 
+You may have heard the term Machine Learning before. To clarify, Machine Learning is a subset of A.I. Machine Learning is essentially machines (or computers) learning to analyse specific sets of data. 
 
 
 
