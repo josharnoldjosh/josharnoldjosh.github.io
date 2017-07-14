@@ -70,7 +70,7 @@ And then, if we gave it an input of 0.55 Acres, the machine learning algorithm w
 
 Notice once the algorithm has found a line of best fit, it can make a prediction given any acre size. 
 
-This is in essence how a machine learning algorithm learns to make predictions. Intuitively, it seems pretty simple right? 
+This is in essence how a machine learning algorithm learns to make predictions. Intuitively, it seems pretty simple right? 🎉
 
 Except there are a few caveats...
 
@@ -81,6 +81,16 @@ Although the previous example seemed simple, Machine learning faces the followin
 * Dataset size
 * The dimension problem 
 * Computational power
+
+Let's dissect each of them one by one 😎
+
+**Dataset size**
+
+As we saw in the previous example, before a machine learning algorithm can make predictions it needs a line of best fit. Well, unfortunately, discovering that line of best fit can be quite a challenge. 
+
+We will get into how exactly a line of best fit can be calculated in machine learning, but in general, *to find a quality line of best fit that can be used requires large amounts of data.* [An algorithm Google developed used a dataset that contained roughly 1.2 million images](https://cacm.acm.org/magazines/2017/6/217745-imagenet-classification-with-deep-convolutional-neural-networks/fulltext).
+
+Of course, not every machine learning algorithm requires datasets that are that large, however, depending on the situation, if limited data is available it can be impossible to create a decent model. 
 
 
 
