@@ -64,9 +64,11 @@ So, our algorithm would first make an effort to find the line of best fit:
 
 ![](https://i.imgur.com/2HCFj5P.png)
 
-And then, if we gave it an input of 0.55 Acres, the machine learning algorithm would draw a line alone the x axis until it intersects with the line of best fit, and then it would trace a line until it intersects with the y axis to yield a predection:
+And then, if we gave it an input of 0.55 Acres, the machine learning algorithm would draw a line along the x axis until it intersects with the line of best fit, and then it would trace a line until it intersects with the y axis to yield a predection of **$13.5 million** for a property size of 0.55 Acres.:
 
 ![](https://i.imgur.com/Ku7NSM8.png)
+
+Notice once the algorithm has found a line of best fit, it can make a prediction give any input value (any input that is an acre size of course). 
 
 
 
