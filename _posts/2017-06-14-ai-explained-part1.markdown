@@ -60,6 +60,12 @@ In highschool, you may have learnt about linear regression, or in simple terms, 
 
 Intuitively, what a machine learning algorithm does is attempt to find the line of best fit in a given dataset and then make predictions using that line of best fit. 
 
+So, our algorithm would first make an effort to find the line of best fit:
+
+![](https://i.imgur.com/2HCFj5P.png)
+
+
+
 
 
 
