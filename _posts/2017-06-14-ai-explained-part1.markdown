@@ -56,7 +56,7 @@ Because our dataset contains two variables per house sale, we can visualize the 
 
 ![](https://i.imgur.com/mV6YrvG.png)
 
-In highschool, you may have learnt about linear regression, or in simple terms, *a line of best fit*. Just by looking at this data, we can see that it follows a trend where the house price is (to an extent) directly proportional to the property size, or in other words, the larger the property size, the higher the cost of the house. 
+In highschool, you may have learned about linear regression, or in simple terms, *a line of best fit*. Just by looking at this data, we can see that it follows a trend where the house price is (to an extent) directly proportional to the property size, or in other words, the larger the property size, the higher the cost of the house. 
 
 Intuitively, what a machine learning algorithm does is attempt to find the line of best fit in a given dataset and then make predictions using that line of best fit. 
 
