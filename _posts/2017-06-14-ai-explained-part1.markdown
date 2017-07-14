@@ -40,7 +40,11 @@ However, what has excelled in current years is *Weak AI* or *Narrow AI*, which i
 
 I like to define Narrow AI (I prefer this term over Weak AI) as artificial intelligence that can perform one single (or narrow) task, such as recognizing the difference between cat and dog images or convert sound to text. 
 
-Unlike AGI, Narrow AI is a reality today. Siri on the iPhone is an example of the combination of multiple Narrow AI's, such as speech to text among others connected to a database in the cloud. However, Siri is in no way aware of her surroundings, or has any senses or feelings. Narrow AI can often [easily be tricked](https://www.youtube.com/watch?v=ijRPlOF2KQE).
+Unlike AGI, Narrow AI is a reality today. Siri on the iPhone is an example of the combination of multiple Narrow AI's, such as speech to text among others, that is connected to a database in the cloud. However, Siri is in no way aware of her surroundings, or has any senses or feelings. Narrow AI can often [easily be tricked](https://www.youtube.com/watch?v=ijRPlOF2KQE).
+
+Much of Narrow AI fits under the category of *Machine Learning*, which we will explore in the rest of this post. 
+
+### Machine Learning 
 
 
 
