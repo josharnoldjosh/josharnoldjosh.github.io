@@ -1,28 +1,13 @@
-<!DOCTYPE html>
-<html>
-	<head>
-  		<link rel="stylesheet" href="style.css">
-  		<script src="javascript.js"></script>
-	</head>
+---
+layout: default
+title: {{ site.name }}
+---
 
-		<div class="stars"></div>
-		<div class="twinkling"></div>
-		<div class="clouds"></div>
-
-		<div class="content">
-			<section id="first"></section>			
-		</div>
-
-		<div class="title">				
-
-			<table>
-			  <tr>
-			    <th> <h1>JOSH ARNOLD</h1> </th>
-			  </tr>
-
-			  <tr>
-			    <td> <h2>Night Owl - Software Ninja - Watermelon Enthusiast</h2> </td>
-			  </tr>
-			</table>
-		</div>
-</html>
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
