@@ -122,5 +122,9 @@ Suddenly, our machine learning algorithm is no longer dealing with a two dimensi
 
 This is in essence the dimension problem. Often in machine learning we deal with multiple variables and the number of dimensions doesn't stop at three. We can easily have four, five, six or even twenty variables which results in a lot of dimensions which are difficult to visualize.  
 
+So in summary, the more dimensions, the harder it can be to find relationships within data and the more computing power is needed. Machine learning can get complicated, fast 😳.
+
+
+
 
 
