@@ -80,6 +80,7 @@ Although the previous example seemed simple, Machine learning faces the followin
 
 * Dataset size
 * The dimension problem 
+* Nonlinearity
 * Computational power
 
 Let's dissect each of them one by one 😎
@@ -92,9 +93,24 @@ We will get into how exactly a line of best fit can be calculated in machine lea
 
 Of course, not every machine learning algorithm requires datasets that are that large, however, depending on the situation, if limited data is available it can be impossible to create a decent model. 
 
+**The Dimension Problem**
 
+The Dimension problem is one of the most challenging aspects of machine learning in my opinion. The easiest way I can think to explain it is like so:
 
+Whenever we plot data on graph, imagine each axis is a dimension. Recall in our previous example we have both and x and y axis, thus, our previous example can be considered two dimensional. 
 
+However, if we were to add another variable to our previous dataset we could no longer use a two dimensional graph to plot our data. 
 
+If you remember our data set contained the following information per house sale:
 
+* The sale price of the house
+* The size of the entire property 
+
+Now, if we add another variable, in this case *the number of rooms in each house*, we would then have three variables per house sale: 
+
+* The sale price of the house
+* The size of the entire property 
+* The number of rooms in the house
+
+Because we represent each variable on an axis and we have three variables, we would naturally have three axes (x, y & z), if we were to plot our data on a graph.
 
