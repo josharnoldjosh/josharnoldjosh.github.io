@@ -52,6 +52,8 @@ Imagine a dataset of house auctions that contains the following information per 
 
 Machine learning in this case could be used to develop an algorithm that can predict the sale price of a house based on the size of the property. 
 
+Because our dataset contains two variables per house sale, we can visualize this by plotting the information on a graph:
+
 ![](https://i.imgur.com/xP3X7TH.png)
 
 
