@@ -43,7 +43,16 @@ Much of Narrow AI fits under the category of *Machine Learning*, which we will e
 
 ## Machine Learning 
 
-You may have heard the term Machine Learning before. To clarify, Machine Learning is a subset of A.I. Machine Learning is essentially machines (or computers) learning to analyse specific sets of data. 
+Machine Learning is a subset of A.I that can be defined broadly as machines (or computers) learning to analyse specific sets of data. The best way to explain what machine learning does is to give an example. 
+
+Imagine a dataset of house auctions that contains the following information per sale:
+
+* The sale price of the house
+* The size of the entire property 
+
+Machine learning in this case could be used to develop an algorithm that can predict the sale price of a house based on the size of the property. 
+
+![](https://i.imgur.com/xP3X7TH.png)
 
 
 
