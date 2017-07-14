@@ -54,7 +54,7 @@ Machine learning in this case could be used to develop an algorithm that can pre
 
 Because our dataset contains two variables per house sale, we can visualize the information by plotting it on a graph.
 
-![](https://i.imgur.com/2HCFj5P.png)
+![](https://i.imgur.com/mV6YrvG.png)
 
 In highschool, you may have learnt about linear regression, or in simple terms, *a line of best fit*. Just by looking at this data, we can see that it follows a trend where the house price is (to an extent) directly proportional to the property size, or in other words, the larger the property size, the higher the cost of the house. 
 
