@@ -50,11 +50,17 @@ Imagine a dataset of house auctions that contains the following information per 
 * The sale price of the house
 * The size of the entire property 
 
-Machine learning in this case could be used to develop an algorithm that can predict the sale price of a house based on the size of the property. 
+Machine learning in this case could be used to develop an algorithm that can predict the sale price of a house based on the size of the property. But how would this work intuitively? We can find out by first visualizing our dataset.
 
-Because our dataset contains two variables per house sale, we can visualize this by plotting the information on a graph:
+Because our dataset contains two variables per house sale, we can visualize the information by plotting it on a graph.
 
-![](https://i.imgur.com/xP3X7TH.png)
+![](https://i.imgur.com/2HCFj5P.png)
+
+In highschool, you may have learnt about linear regression, or in simple terms, *a line of best fit*. Just by looking at this data, we can see that it follows a trend where the house price is (to an extent) directly proportional to the property size, or in other words, the larger the property size, the higher the cost of the house. 
+
+Intuitively, what a machine learning algorithm does is attempt to find the line of best fit in a given dataset and then make predictions using that line of best fit. 
+
+
 
 
 
