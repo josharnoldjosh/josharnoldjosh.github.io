@@ -68,7 +68,19 @@ And then, if we gave it an input of 0.55 Acres, the machine learning algorithm w
 
 ![](https://i.imgur.com/Ku7NSM8.png)
 
-Notice once the algorithm has found a line of best fit, it can make a prediction give any acre size. 
+Notice once the algorithm has found a line of best fit, it can make a prediction given any acre size. 
+
+This is in essence how a machine learning algorithm learns to make predictions. Intuitively, it seems pretty simple right? 
+
+Except there are a few caveats...
+
+### Machine Learning Challenges
+
+Although the previous example seemed simple, Machine learning faces the following challenges:
+
+* Dataset size
+* The dimension problem 
+* Computational power
 
 
 
