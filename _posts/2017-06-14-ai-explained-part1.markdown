@@ -85,7 +85,7 @@ Although the previous example seemed simple, Machine learning faces the followin
 
 Let's dissect each of them one by one 😎
 
-**Dataset size**
+####Dataset size
 
 As we saw in the previous example, before a machine learning algorithm can make predictions it needs a line of best fit. Well, unfortunately, discovering that line of best fit can be quite a challenge. 
 
