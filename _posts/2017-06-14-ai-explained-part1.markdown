@@ -43,7 +43,7 @@ A few more examples of Narrow AI include:
 
 * [Google's AlphaGo beating the world's best human Go player](https://techcrunch.com/2017/05/23/googles-alphago-ai-beats-the-worlds-best-human-go-player/)
 
-* [Deep blue beating a reigning world champion under regular time controls](https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer))
+* [Deep blue beating a reigning world chess champion under regular time controls](https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer))
 
 * [Google captioning images with 93.9% accuracy](https://www.dpreview.com/news/7658223665/google-algorithm-can-describe-image-contents-with-93-9-accuracy)
 
