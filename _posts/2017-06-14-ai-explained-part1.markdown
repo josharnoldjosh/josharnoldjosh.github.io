@@ -146,7 +146,11 @@ The last challenge I would like to point out for now is the everlasting concern 
 
 I'll get into how exactly machine learning algorithms find relationships in data in another post, however, I would like to stress the idea that **it is extremely rare for machine learning algorithms to find perfect relationships within data.**
 
-Because our datasets can get extremely complex with multiple dimensions and non-linear relationships, it is physically impossible for our algorithms to perform brute force computations that calculate every possible relationship to find the perfect fit for the data. The reason being is the estimated time to perform such calculations can easily take 100's of years to complete 
+Because our datasets can get extremely complex with multiple dimensions and non-linear relationships, it is physically impossible for our algorithms to perform brute force computations that calculate every possible relationship to find the perfect fit for the data. 
+
+The reason being is the time to perform such calculations can easily take 100's of years to complete, and I'm not exaggerating.
+
+Machine learning algorithms use special techniques such as *gradient descent* (which we will get into in another post) and as a result of these techniques the algorithms usually only find close to rough versions of relationships within the data, it is rare for an algorithm to find perfect relationships and honestly perfect relationships are not worth the time it takes to find them. 
 
 
 
