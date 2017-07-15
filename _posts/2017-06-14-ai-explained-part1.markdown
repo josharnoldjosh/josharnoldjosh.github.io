@@ -85,7 +85,7 @@ Although the previous example seemed simple, Machine learning faces the followin
 
 Let's dissect each of them one by one 😎
 
-####Dataset size
+**Dataset size**
 
 As we saw in the previous example, before a machine learning algorithm can make predictions it needs a line of best fit. Well, unfortunately, discovering that line of best fit can be quite a challenge. 
 
@@ -126,13 +126,17 @@ So in summary, the more dimensions, the harder it can be to find relationships w
 
 **Nonlinearity**
 
-In our previous example, I showed how the releationship within the data was a line of best fit. Another challenge in machine learning is the relationships between the data is not always linear.
+In our previous example, I showed how the releationship within the data was a line of best fit. Another challenge in machine learning is the relationships within the data are not always linear.
 
-This means, relationships in our data will start to look like this:
+This means relationships in our data will start to look like this:
 
 ![](https://i.imgur.com/NWuRbOZ.png)
 
 Yeah, weird lines everywhere.
+
+If we combine non-linear relationships with multiple dimensions, we get something like this:
+
+
 
 
 
