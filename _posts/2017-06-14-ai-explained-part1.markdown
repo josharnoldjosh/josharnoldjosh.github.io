@@ -39,6 +39,14 @@ I like to define Narrow AI (I prefer this term over Weak AI) as artificial intel
 
 Unlike AGI, Narrow AI is a reality today. Siri on the iPhone is an example of the combination of multiple Narrow AI's, such as speech to text among others, that is connected to a database in the cloud. However, Siri is in no way aware of her surroundings or has any senses or feelings. Narrow AI like Siri can often [easily be tricked](https://www.youtube.com/watch?v=ijRPlOF2KQE).
 
+A few more examples of Narrow AI include:
+
+* [Google's AlphaGo beating the world's best human Go player](https://techcrunch.com/2017/05/23/googles-alphago-ai-beats-the-worlds-best-human-go-player/)
+
+* [Deep blue beating a reigning world champion under regular time controls](https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer))
+
+* [Google captioning images with 93.9% accuracy](https://www.dpreview.com/news/7658223665/google-algorithm-can-describe-image-contents-with-93-9-accuracy)
+
 Much of Narrow AI fits under the category of *Machine Learning*, which we will explore in the rest of this post. 
 
 ## Machine Learning 
