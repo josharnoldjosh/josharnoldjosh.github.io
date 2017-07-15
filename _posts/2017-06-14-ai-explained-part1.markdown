@@ -166,7 +166,11 @@ The time it takes for computers to find relationships within data depends on the
 
 ## Conclusion 
 
-I hope this post helped give you a quick introduction to A.I and the intuition behind machine learning. In the next post, I plan to tackle the different types of machine learning models and artificial neural networks. 
+Machine learning on its own is a huge topic containing many different models that serve different tasks. A computer vision machine learning model would look different to a model that learns to play chess.
+
+I hope this post helped give you a quick introduction to A.I and a basic intuition behind machine learning. 
+
+In the next post, I plan to tackle the different types of machine learning models and artificial neural networks. 
 
 Thanks for reading 🙏🏼
 
