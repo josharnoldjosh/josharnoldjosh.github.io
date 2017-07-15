@@ -126,7 +126,7 @@ So in summary, the more dimensions, the harder it can be to find relationships w
 
 **Nonlinearity**
 
-In our previous example, I showed how the releationship within the data was a line of best fit. Another challenge in machine learning is the relationships within the data are not always linear.
+In our previous example, I showed how the releationship within the data was a line of best fit. Another challenge in machine learning is the relationships within data are not always linear.
 
 This means relationships in our data will start to look like this:
 
@@ -135,6 +135,12 @@ This means relationships in our data will start to look like this:
 Yeah, weird lines everywhere.
 
 If we combine non-linear relationships with multiple dimensions, we get something like this:
+
+![](https://i.imgur.com/Wzh83m4.png)
+
+Pretty crazy right? One of the reasons machine learning is fantastic is it can find amazing relationships between huge amounts of data that are not necessarily obvious to us humans. 
+
+
 
 
 
