@@ -156,9 +156,8 @@ It is rare for an algorithm to find perfect relationships and honestly perfect r
 
 The time it takes for computers to find relationships within data depends on the computational power for the machine. To give you an idea, it usually takes a computer anywhere from a few hours to a few days to find a decent relationship in a given dataset to be able to make accurate predictions. 
 
+## Conclusion 
 
-
-
-
+I hope this post helped give you a quick introduction to A.I and the intuition behind machine learning. In the next post I plan to tackle artificial neural networks. Thanks for reading 🙏🏼
 
 
