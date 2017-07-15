@@ -158,6 +158,8 @@ The time it takes for computers to find relationships within data depends on the
 
 ## Conclusion 
 
-I hope this post helped give you a quick introduction to A.I and the intuition behind machine learning. In the next post I plan to tackle artificial neural networks. Thanks for reading 🙏🏼
+I hope this post helped give you a quick introduction to A.I and the intuition behind machine learning. In the next post I plan to tackle the different types of machine learning models and artificial neural networks. 
+
+Thanks for reading 🙏🏼
 
 
