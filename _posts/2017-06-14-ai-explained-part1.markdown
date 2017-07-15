@@ -150,7 +150,11 @@ Because our datasets can get extremely complex with multiple dimensions and non-
 
 The reason being is the time to perform such calculations can easily take 100's of years to complete, and I'm not exaggerating.
 
-Machine learning algorithms use special techniques such as *gradient descent* (which we will get into in another post) and as a result of these techniques the algorithms usually only find close to rough versions of relationships within the data, it is rare for an algorithm to find perfect relationships and honestly perfect relationships are not worth the time it takes to find them. 
+Machine learning algorithms use special techniques such as *gradient descent* (which we will get into in another post) and as a result of these techniques the algorithms usually only find close to rough versions of relationships within the data. 
+
+It is rare for an algorithm to find perfect relationships and honestly perfect relationships are not worth the time it takes to find them. 
+
+The time it takes for computers to find relationships within data depends on the computational power for the machine. To give you an idea, it usually takes a computer anywhere from a few hours to a few days to find a decent relationship in a given dataset to be able to make accurate predictions. 
 
 
 
