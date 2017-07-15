@@ -140,6 +140,14 @@ If we combine non-linear relationships with multiple dimensions, we get somethin
 
 Pretty crazy right? One of the reasons machine learning is fantastic is it can find amazing relationships between huge amounts of data that are not necessarily obvious to us humans. 
 
+**Computational power**
+
+The last challenge I would like to point out for now is the everlasting concern of computational power. 
+
+I'll get into how exactly machine learning algorithms find relationships in data in another post, however, I would like to stress the idea that **it is extremely rare for machine learning algorithms to find perfect relationships within data.**
+
+Because our datasets can get extremely complex with multiple dimensions and non-linear relationships, it is physically impossible for our algorithms to perform brute force computations that calculate every possible relationship to find the perfect fit for the data. The reason being is the estimated time to perform such calculations can easily take 100's of years to complete 
+
 
 
 
