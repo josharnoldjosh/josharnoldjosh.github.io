@@ -1,6 +1,9 @@
 # Josh Arnold
 
-Below is my CV written in pure Swift that will compile in Xcode Playgrounds. 
+Below is Josh Arnold's CV written in pure Swift that will compile in Xcode Playgrounds. 
+
+### Note
+Some lines have been split into two for the sake of rendering all the code into a PDF nicely.
 
 
 ```swift
