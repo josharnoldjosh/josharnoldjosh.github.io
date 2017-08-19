@@ -4,7 +4,8 @@ Below is my CV written in pure Swift that will compile in Xcode Playgrounds.
 
 
 ```swift
-//:  Curriculum vitae - noun: a brief account of a person's education, qualifications, and previous experience, typically sent with a job application.
+//:  Curriculum vitae - noun: a brief account of a person's education, 
+     qualifications, and previous experience, typically sent with a job application.
 
 import UIKit
 
@@ -23,25 +24,34 @@ class JoshArnold {
     
     // MARK: - External links
     
-    let appstoreProfile:URL = URL(string: "https://itunes.apple.com/nz/developer/josh-arnold/id1229902374")!
-    let linkedInProfile:URL = URL(string: "https://www.linkedin.com/in/josh-arnold-8854a2b0/")!
-    let githubProfile:URL = URL(string: "https://github.com/josharnoldjosh")!
+    let appstore = URL(string:"https://itunes.apple.com/nz/developer/
+    josh-arnold/id1229902374")!
+    let linkedIn = URL(string:"https://www.linkedin.com/in/josh-arnold-8854a2b0/")!
+    let github = URL(string:"https://github.com/josharnoldjosh")!
     
     // MARK: - Biography
     
     func biography() -> String {
         let bio:String = """
-            Josh Arnold is a 17-year-old software developer, passionate about making a difference through technology.
+            Josh Arnold is a 17-year-old software developer, 
+            passionate about making a difference through technology.
 
-            Josh published his first app on the AppStore at age 12. At fifteen, he developed his first social networking app,
-            Hang, designed to encourage real-life social interaction. At 16, Josh began working as a Senior iOS developer at ParkinTech,
+            Josh published his first app on the AppStore at age 12. 
+            At fifteen, he developed his first social networking app,
+            Hang, designed to encourage real-life social interaction. 
+            At 16, Josh began working as a Senior iOS developer at ParkinTech,
             engineering solutions for complex iOS image processing problems.
 
-            Since then he has founded Job Finder NZ, a mobile app startup focused on reducing youth unemployment,
-            and lead the mobile app development for Tech Week 2017, a nationwide event promoting technology.
+            Since then he has founded Job Finder NZ, 
+            a mobile app startup focused on reducing youth unemployment,
+            and lead the mobile app development for Tech Week 2017, 
+            a nationwide event promoting technology.
 
-            In his spare time in-between work and school, Josh likes to play video games, talk with other humans,
-            experiment with new software libraries and support social causes through technology, such as by participating as a volunteer for Code Club NZ.
+            In his spare time in-between work and school, 
+            Josh likes to play video games, talk with other humans,
+            experiment with new software libraries and support 
+            social causes through technology, such as by participating 
+            as a volunteer for Code Club NZ.
         """
         return bio
     }
@@ -56,7 +66,9 @@ class JoshArnold {
         let twStartDate = formatter.date(from: "12/2016")!
         let twEndDate = formatter.date(from: "05/2017")!
         let twDescription = """
-            Techweek NZ: Lead iOS developer, responsible for delivering a fully functional iOS app for Techweek NZ, a nationwide event promoting technology in New Zealand.
+            Techweek NZ: Lead iOS developer, 
+            responsible for delivering a fully functional iOS app for Techweek NZ, 
+            a nationwide event promoting technology in New Zealand.
             Developed team skills via working closely with a group from Auckland Council.
         """
         let tw = Experience(companyName: "Techweek NZ", startDate: twStartDate, endDate: twEndDate, description: twDescription)
@@ -65,8 +77,9 @@ class JoshArnold {
         let maStartDate = formatter.date(from: "11/2016")!
         let maEndDate = formatter.date(from: "03/2017")!
         let maDescription = """
-            Macro Active: Responsible for developing and updating both iOS and Android applications for high profile global clients such as Josef Rakich fitness,
-            who has over 3,000,000 likes on Facebook.
+            Macro Active: Responsible for developing and updating both 
+            iOS and Android applications for high profile global clients 
+            such as Josef Rakich fitness, who has over 3,000,000 likes on Facebook.
         """
         let ma = Experience(companyName: "Macro Active", startDate: maStartDate, endDate: maEndDate, description: maDescription)
         
@@ -74,9 +87,15 @@ class JoshArnold {
         let ptStartDate = formatter.date(from: "01/2016")!
         let ptEndDate = formatter.date(from: "07/2017")!
         let ptDescription = """
-            ParkinTech: Full stack development, managing the whole process of turning ideas into fully functioning iOS applications.
-            Put out of comfort zone on a regular basis, developed solutions for New Zealand license plate recognition using an iPhone app.
-            Paid to do independent research on real time license plate recognition using artificial intelligence—convolutional neural networks.
+            ParkinTech: Full stack development, 
+            managing the whole process of turning ideas into 
+            fully functioning iOS applications.
+            Put out of comfort zone on a regular basis, 
+            developed solutions for New Zealand license plate recognition 
+            using an iPhone app.
+            Paid to do independent research on real time 
+            license plate recognition using 
+            artificial intelligence/convolutional neural networks.
         """
         let pt = Experience(companyName: "ParkinTech Ltd", startDate: ptStartDate, endDate: ptEndDate, description: ptDescription)
     
