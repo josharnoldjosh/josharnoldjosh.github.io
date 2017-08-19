@@ -2,6 +2,11 @@
 
 Below is Josh Arnold's CV written in pure Swift that will compile in Xcode Playgrounds. 
 
+### Contact 
+
+Email: jarnold@ucdavis.edu
+Mobile Phone:+1 808 256 7179
+
 ### Note
 Some lines have been split into two for the sake of rendering all the code into a PDF nicely.
 
