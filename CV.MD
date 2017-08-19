@@ -1,5 +1,7 @@
 # Josh Arnold
 
+Below is my CV written in pure Swift that will compile in Xcode Playgrounds. 
+
 
 ```swift
 //:  Curriculum vitae - noun: a brief account of a person's education, qualifications, and previous experience, typically sent with a job application.
