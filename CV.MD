@@ -5,7 +5,7 @@ Below is my CV written in pure Swift that will compile in Xcode Playgrounds.
 
 ```swift
 //:  Curriculum vitae - noun: a brief account of a person's education, 
-     qualifications, and previous experience, typically sent with a job application.
+//   qualifications, and previous experience, typically sent with a job application.
 
 import UIKit
 
@@ -69,9 +69,11 @@ class JoshArnold {
             Techweek NZ: Lead iOS developer, 
             responsible for delivering a fully functional iOS app for Techweek NZ, 
             a nationwide event promoting technology in New Zealand.
-            Developed team skills via working closely with a group from Auckland Council.
+            Developed team skills via working closely 
+            with a group from Auckland Council.
         """
-        let tw = Experience(companyName: "Techweek NZ", startDate: twStartDate, endDate: twEndDate, description: twDescription)
+        let tw = Experience(companyName: "Techweek NZ", 
+        startDate: twStartDate, endDate: twEndDate, description: twDescription)
         
         // Macro Active
         let maStartDate = formatter.date(from: "11/2016")!
@@ -81,7 +83,8 @@ class JoshArnold {
             iOS and Android applications for high profile global clients 
             such as Josef Rakich fitness, who has over 3,000,000 likes on Facebook.
         """
-        let ma = Experience(companyName: "Macro Active", startDate: maStartDate, endDate: maEndDate, description: maDescription)
+        let ma = Experience(companyName: "Macro Active", 
+        startDate: maStartDate, endDate: maEndDate, description: maDescription)
         
         // ParkinTech Ltd
         let ptStartDate = formatter.date(from: "01/2016")!
@@ -97,7 +100,8 @@ class JoshArnold {
             license plate recognition using 
             artificial intelligence/convolutional neural networks.
         """
-        let pt = Experience(companyName: "ParkinTech Ltd", startDate: ptStartDate, endDate: ptEndDate, description: ptDescription)
+        let pt = Experience(companyName: "ParkinTech Ltd", 
+        startDate: ptStartDate, endDate: ptEndDate, description: ptDescription)
     
         return [tw, ma, pt]
     }
@@ -111,17 +115,22 @@ class JoshArnold {
         // Computer Engineering: University of California, Davis
         let ucdStartDate = formatter.date(from: "07/2017")!
         let ucdDescription = """
-            Computer Engineering: Currently studying undergraduate computer engineering at the University of California, Davis.
+            Computer Engineering: Currently studying 
+            undergraduate computer engineering at 
+            the University of California, Davis.
         """
-        let ucd = Experience(companyName: "University of California, Davis", startDate: ucdStartDate, endDate: nil, description: ucdDescription)
+        let ucd = Experience(companyName: "University of California, Davis", 
+        startDate: ucdStartDate, endDate: nil, description: ucdDescription)
         
         // International Baccalaureate
         let ibStartDate = formatter.date(from: "05/2015")!
         let ibEndDate = formatter.date(from: "05/2017")!
         let ibDescription = """
-            International Baccalaureate: Completed the IB diploma and recieved a score of 35.
+            International Baccalaureate: Completed the IB diploma 
+            and recieved a score of 35.
         """
-        let ib = Experience(companyName: "International Baccalaureate", startDate: ibStartDate, endDate: ibEndDate, description: ibDescription)
+        let ib = Experience(companyName: "International Baccalaureate", 
+        startDate: ibStartDate, endDate: ibEndDate, description: ibDescription)
         
         return [ucd, ib]
     }
@@ -134,18 +143,23 @@ class JoshArnold {
         let ccStartDate = formatter.date(from: "08/2016")!
         let ccEndDate = formatter.date(from: "07/2017")!
         let ccDescription = """
-            Code Club NZ: Volunteered for a few hours each week inspiring primary school children about programming
-            teaching them how to use Scratch, build websites using HTML and even create simple games with Python.
+            Code Club NZ: Volunteered for a few hours each week 
+            inspiring primary school children about programming
+            teaching them how to use Scratch, 
+            build websites using HTML and even create simple games with Python.
         """
-        let cc = Experience(companyName: "Code Club NZ", startDate: ccStartDate, endDate: ccEndDate, description: ccDescription)
+        let cc = Experience(companyName: "Code Club NZ", 
+        startDate: ccStartDate, endDate: ccEndDate, description: ccDescription)
         
         // Impact NPO
         let npoStartDate = formatter.date(from: "10/2016")!
         let npoEndDate = formatter.date(from: "10/2016")!
         let npoDescription = """
-            Impact NPO: Participated in a three-day-long hackathon where I worked with a team to develop websites for charities.
+            Impact NPO: Participated in a three-day-long hackathon 
+            where I worked with a team to develop websites for charities.
         """
-        let npo = Experience(companyName: "Impact NPO", startDate: npoStartDate, endDate: npoEndDate, description: npoDescription)
+        let npo = Experience(companyName: "Impact NPO", 
+        startDate: npoStartDate, endDate: npoEndDate, description: npoDescription)
         
         return [cc, npo]
     }
