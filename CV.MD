@@ -172,12 +172,6 @@ class JoshArnold {
         
         return [cc, npo]
     }
-    
-    // TODO: - Execute the following function
-    
-    func isJoshSuperLucky(AppleOffersMeAnInterview:Bool) -> Bool {
-        return AppleOffersMeAnInterview
-    }
 }
 
 // MARK: - Struct definitions
