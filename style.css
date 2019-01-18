@@ -1,0 +1,10 @@
+body {
+	background-color: white;
+	scroll-behavior: smooth;
+}
+
+.code {
+	/*font-family: monospace;*/
+	color: black;
+	font-size: 3em;
+}

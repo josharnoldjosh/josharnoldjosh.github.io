@@ -1,27 +1,217 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Josh Arnold</title>
-	 <style>
-	 	@media (max-width: 800px) {
-		      html, body, iframe
-		      {
-		         height:100%;
-		         width:100%;             
-		      }
-		 }
-		 @media (min-width: 800px) {
-		      html, body, iframe
-		      {
-		         height:100%;
-		         width:75%;             
-		         display: block;
-		         margin: auto;
-		      }
-		 }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Josh Arnold</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 </head>
-<body>
-	 <iframe src="cv.pdf"></iframe>			
-</body>
+	<body>
+
+	<nav class="navbar is-fixed-top">
+		<div id="navbarBasicExample" class="navbar-menu scrollTo">
+			<div class="navbar-end">				
+				<a class="navbar-item" href="#home">Home</a>
+				<a class="navbar-item" href="#about">About</a>
+				<a class="navbar-item" href="#pub">Publications</a>
+				<a class="navbar-item" href="#contact">Contact</a>
+			</div>			
+		</div>
+	</nav>
+
+	<section class="hero is-fullheight" id="home">
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<h1 class="code">					
+					  <span class="txt-rotate" data-period="500"
+					  data-rotate='[ "Josh Arnold.", "student.", "developer.", "watermelon enthusiast."]'>					  	
+					  </span>
+				</h1>			
+			</div>
+		</div>
+	</section>
+
+	<section class="hero is-fullheight" id="about">
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				
+				<div class="columns">
+					<div class="column">
+						<h1 class="title">About</h1>
+					</div>
+				</div>
+
+				<div class="columns is-multiline is-centered">
+					<div class="column is-one-quarter">
+						<p>I'm a student studying computer science & engineering at the University of California, Davis.</p>
+					</div>
+				</div>
+
+				<div class="columns is-multiline is-centered">
+					<div class="column is-one-quarter">
+						<p>My interest lies in deep learning—specifically deep neural networks, reinforcement learning, and natural language processing.</p>
+					</div>					
+				</div>
+
+				<div class="columns is-multiline is-centered">
+					<div class="column is-one-third">
+						<img src="network.gif">
+					</div>					
+				</div>							
+		</div>
+	</section>
+
+	<section class="hero is-fullheight" id="pub">
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				
+				<div class="columns is-centered">
+
+					<div class="column is-one-third">
+						<div class="columns is-centered">
+							<div class="column is-two-thirds">
+								<h1 class="subtitle">Publications</h1>								
+								<p style="text-align:justify"><b>06/2019</b> Deep Learning for Simulation of Mass Spectra (coming soon)</p>				
+							</div>
+						</div>
+					</div>
+
+					<div class="column is-one-third">
+
+						<div class="columns is-centered">
+							<div class="column is-two-thirds">
+								<h1 class="subtitle">Updates</h1>								
+								<p style="text-align:justify"><b>01/2019</b> I am a director for HackDavis 2019, hosting 700 hackers from across America this Feburary. Check out the action here <a href="https://hackdavis.io">hackdavis.io</a></p>				
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="hero is-fullheight" id="contact">
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				
+				<div class="columns">
+					<div class="column">
+						<h1 class="title">Find me</h1>
+					</div>
+				</div>
+
+				<div class="columns is-multiline is-centered">
+					<div class="column is-one-quarter">
+						<p>I'm avaliable to connect on social. Feel free to flick me an email at <b>jarnold@ucdavis.edu</b>, or connect with me on LinkedIn.</p>
+					</div>
+				</div>		
+				
+				<div class="columns is-multiline is-centered">
+					<div class="column is-narrow">					
+						<a class="button is-primary" href="https://www.linkedin.com/in/josharnoldjosh/">LinkedIn</a>
+					</div>
+	
+					<div class="column is-narrow">
+						<a class="button is-primary" href="https://github.com/josharnoldjosh">Github</a>
+					</div>
+
+					<div class="column is-narrow">
+						<a class="button is-primary" href="https://twitter.com/josharnold997">Twitter</a>
+					</div>					
+				</div>				
+			</div>
+		</div>
+	</section>				
+
+	</body>
 </html>
+
+<script type="text/javascript">
+	var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 150 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  // INJECT CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
+};
+</script>
