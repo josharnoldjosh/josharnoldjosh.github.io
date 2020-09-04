@@ -271,9 +271,12 @@
 
 
             function scrollDown() {
-                const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
-                document.body.scrollTop = vh + 200;
-                window.scrollTo({ top: vh, behavior: 'smooth' })
+                // const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
+                // document.body.scrollTop = vh + 200;
+                var top = document.getElementById('scroll_intro').getBoundingClientRect().top;
+                // window.scrollTo({ top: top, behavior: 'smooth' })
+
+                window.scrollBy(0, top);
             }
 
             function page_loaded() {
@@ -293,7 +296,7 @@
 
                 setTimeout(() => {                    
                     scrollDown();
-                }, 500);
+                }, 100);
             }
 
     
