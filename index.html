@@ -112,6 +112,8 @@
                 height: 1px;
                 width: 100vw;
                 background-color: lightgrey;
+                margin-top: 16px;
+                /* margin-bottom: 16px; */
             }
 
             .menu-column {
@@ -167,7 +169,7 @@
         }
 
         .top-pad-guarunteed {
-            margin-top: 64px;
+            margin-top: 16px;
             margin-left: 0px;
             margin-right: 0px;
             margin-bottom: 0px;
@@ -274,6 +276,10 @@
                 // const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
                 // document.body.scrollTop = vh + 200;
                 var top = document.getElementById('scroll_intro').getBoundingClientRect().top;
+
+
+                // top += 60;
+
                 // window.scrollTo({ top: top, behavior: 'smooth' })
 
                 window.scrollBy(0, top);
