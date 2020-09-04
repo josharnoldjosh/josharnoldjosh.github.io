@@ -277,6 +277,14 @@
     <script>
         // https://stackoverflow.com/questions/11381673/detecting-a-mobile-browser
         // delete "overflow: auto; height: 100vh;" if mobile, else keep "overflow: auto; height: 100vh;" there
+
+        function clicked() {
+            $('document').ready(function(){
+                var top = document.getElementById('scroll_intro').getBoundingClientRect().top;
+                window.scrollTo({ top: top, behavior: 'smooth' });
+            });            
+        }
+
         $('document').ready(function(){
 
 
@@ -290,7 +298,7 @@
 
                 window.scrollTo({ top: 0, behavior: 'smooth' });
 
-                // window.scrollBy(0, top);
+                
             }
 
             function page_loaded() {
@@ -312,6 +320,8 @@
                     scrollDown();
                 }, 100);
             }
+
+
 
     
             var textarea = $('.term');
@@ -1743,7 +1753,7 @@
                     <!-- Panel -->
                     <nav class="" style="width: 300px; margin-top: 32px;" id="menu">      
                         
-                        <a href="index.html">
+                        <a href="#" onclick="clicked();">
                         <strong>                            
                             <p class="selectable" style="color: rgba(255, 255, 255, 1.0); text-align: center; margin-top: 20px;">Home</p>
                         </strong>
@@ -1776,7 +1786,7 @@
                 <div class = "container">
 
                     <div class = "fade" style="margin-top: 32px; margin-bottom: 60vh; margin-left: 16px; margin-right: 16px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
-                        <p class="title" style="margin-top: 128px;">Hey, nice to meet you.</p>
+                        <p class="title" style="margin-top: 20vh;">Hey, nice to meet you.</p>
                         <p style="max-width: 500px; text-align: center;">Thanks for taking the time to visit my website. Scroll down to see some projects I've been working on!</p>
                         <figure class="image is-64x64">
                             <img src="https://cloudcar.com/wp-content/uploads/2018/06/gif-bounce-arrow.gif">
