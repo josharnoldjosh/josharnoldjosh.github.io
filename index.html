@@ -283,10 +283,15 @@
         // delete "overflow: auto; height: 100vh;" if mobile, else keep "overflow: auto; height: 100vh;" there
 
         function clicked() {
-            $('document').ready(function(){
-                var top = document.getElementById('scroll_intro').getBoundingClientRect().top;
-                window.scrollTo({ top: top, behavior: 'smooth' });
-            });            
+            
+            $(document).ready(function(){
+                var top = document.getElementById('scroll_intro').getBoundingClientRect().top + 20;
+                
+                    $('html, body').animate({
+                        scrollTop: top
+                    }, 700, function(){                        
+                    });                                    
+            });                  
         }
 
         $('document').ready(function(){
