@@ -19,6 +19,9 @@
 
     <style>
 
+        /* html, body {
+            background-color: black;
+        } */
 
 
         pre {
@@ -269,7 +272,7 @@
 
             function scrollDown() {
                 const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
-                document.body.scrollTop = vh;
+                document.body.scrollTop = vh + 200;
                 window.scrollTo({ top: vh, behavior: 'smooth' })
             }
 
@@ -1749,7 +1752,7 @@
             
             <!-- Shows loading screen -->
             <div class="load" id="loader">
-                <pre class="term" id="term">Joshs-MacBook-Pro-2:~ josharnold$ </pre>
+                <pre class="term" id="term" style="padding-top: 5vh;">Joshs-MacBook-Pro-2:~ josharnold$ </pre>
             </div>
 
             <div class="projects hidden" id="projects">
